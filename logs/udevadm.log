@@ -1,0 +1,60 @@
+N: input/mouse3
+L: 0
+S: input/by-path/pci-0000:00:14.0-usb-0:4:1.1-mouse
+S: input/by-id/usb-Logitech_USB_Receiver-if01-mouse
+E: DEVPATH=/devices/pci0000:00/0000:00:14.0/usb3/3-4/3-4:1.1/0003:046D:C534.0028/0003:046D:4091.002A/input/input63/mouse3
+E: DEVNAME=/dev/input/mouse3
+E: MAJOR=13
+E: MINOR=35
+E: SUBSYSTEM=input
+E: USEC_INITIALIZED=99660304952
+E: ID_INPUT=1
+E: ID_INPUT_MOUSE=1
+E: ID_VENDOR=Logitech
+E: ID_VENDOR_ENC=Logitech
+E: ID_VENDOR_ID=046d
+E: ID_MODEL=USB_Receiver
+E: ID_MODEL_ENC=USB\x20Receiver
+E: ID_MODEL_ID=c534
+E: ID_REVISION=2901
+E: ID_SERIAL=Logitech_USB_Receiver
+E: ID_TYPE=hid
+E: ID_BUS=usb
+E: ID_USB_INTERFACES=:030101:030102:
+E: ID_USB_INTERFACE_NUM=01
+E: ID_USB_DRIVER=usbhid
+E: ID_PATH=pci-0000:00:14.0-usb-0:4:1.1
+E: ID_PATH_TAG=pci-0000_00_14_0-usb-0_4_1_1
+E: DEVLINKS=/dev/input/by-path/pci-0000:00:14.0-usb-0:4:1.1-mouse /dev/input/by-id/usb-Logitech_USB_Receiver-if01-mouse
+
+
+N: input/mouse3
+L: 0
+S: input/by-path/pci-0000:00:14.0-usb-0:3:1.1-mouse
+S: input/by-id/usb-Logitech_USB_Receiver-if01-mouse
+E: DEVPATH=/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:046D:C534.002C/0003:046D:4091.002E/input/input65/mouse3
+E: DEVNAME=/dev/input/mouse3
+E: MAJOR=13
+E: MINOR=35
+E: SUBSYSTEM=input
+E: USEC_INITIALIZED=99708105285
+E: ID_INPUT=1
+E: ID_INPUT_MOUSE=1
+E: ID_VENDOR=Logitech
+E: ID_VENDOR_ENC=Logitech
+E: ID_VENDOR_ID=046d
+E: ID_MODEL=USB_Receiver
+E: ID_MODEL_ENC=USB\x20Receiver
+E: ID_MODEL_ID=c534
+E: ID_REVISION=2901
+E: ID_SERIAL=Logitech_USB_Receiver
+E: ID_TYPE=hid
+E: ID_BUS=usb
+E: ID_USB_INTERFACES=:030101:030102:
+E: ID_USB_INTERFACE_NUM=01
+E: ID_USB_DRIVER=usbhid
+E: ID_PATH=pci-0000:00:14.0-usb-0:3:1.1
+E: ID_PATH_TAG=pci-0000_00_14_0-usb-0_3_1_1
+E: DEVLINKS=/dev/input/by-path/pci-0000:00:14.0-usb-0:3:1.1-mouse /dev/input/by-id/usb-Logitech_USB_Receiver-if01-mouse
+
+
