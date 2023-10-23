@@ -26,7 +26,7 @@ class PortFinder
         PortFinder();
 
         ~PortFinder();
-
+        
         string commandExecute(const char* command);
 
         vector<string> listAllPorts(string serial_port_group);

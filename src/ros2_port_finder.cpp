@@ -193,15 +193,25 @@ string PortFinder::findDeviceName(string port)
 string PortFinder::findPort(string serial_port_group, string id_vendor, string id_vendor_id, string id_model_id, string id_path)
 {
     listAllPorts(serial_port_group);
+    
+    string port_name = "";
 
     for(auto &port : _splitted_all_ports)
     {
         if(findIDVendor(port) == id_vendor && findIDVendorID(port) == id_vendor_id && findIDModelID(port) == id_model_id && findIDPath(port) == id_path)
         {
-            _found_port_name = findDeviceName(port);
+            port_name = findDeviceName(port);
+            cout << "Founded Port From Ros2 Port Finder: " << port_name << endl;
+            // _found_port_name = findDeviceName(port);
             // break;
         }
     }
-    return _found_port_name;
+
+    if(port_name == "")
+    {
+        return findPort(serial_port_group, id_vendor, id_vendor_id, id_model_id, id_path);
+    }
+    
+    return port_name;
 }
 
